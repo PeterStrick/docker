@@ -38,4 +38,4 @@ jobs:
           file: ./apps/${{ matrix.app }}/Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/PeterStrick/apps:${{ matrix.app }}
+          tags: ghcr.io/peterstrick/apps:${{ matrix.app }}
