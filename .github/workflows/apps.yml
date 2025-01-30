@@ -19,6 +19,7 @@ jobs:
       matrix:
         app:
           - boypetter
+          - boydancer
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
